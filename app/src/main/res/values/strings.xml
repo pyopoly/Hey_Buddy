@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Hey Buddy</string>
+    <string name="action_settings">Settings</string>
+    <!--    Weather -->
+    <string name="openWeatherMap_api_key">00c38f999aaba79bed1eeb46ecdfbd67</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="s_menu_add_icon">Add</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="s_title">Title</string>
+    <string name="dialogDelete">Are you sure you want to delete this?</string>
+    <string name="dialogDeleteConfirm">Yes</string>
+    <string name="dialogDeleteCancel">cancel</string>
+    <string name="s_radioBtn_addGroup">group</string>
+    <string name="title_activity_add_new">AddNewActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+
+    <string name="s_object">the object being passed in the tag. Block or Group</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--    Permission Message  -->
+    <string name="ok">ok</string>
+    <string name="location_permission_required">Location Permission is required to get current location for the Map</string>
+    <string name="location_permission_granted">Location Permission was granted. Getting current location</string>
+    <string name="location_permission_denied">Location Permission was denied.</string>
+    <string name="location_permission_not_available">Permission is not available. Requesting location permission.</string>
+    <string name="home_menu">Home</string>
+    <string name="map_menu">Map</string>
+    <string name="iconDescription">Icon</string>
+    <string name="addNewActivityTitle">"Add a Group or a Block. Groups work like folders that contain Blocks."</string>
+    <string name="group">Group</string>
+    <string name="block">Block</string>
+    <string name="add_block">Where would you like to go?</string>
+    <string name="the_title">Tile</string>
+    <string name="hour">How many hours?</string>
+    <string name="description">Description</string>
+    <string name="icon">Icon</string>
+    <string name="add_multiple">Add Multiple</string>
+    <string name="cancel">cancel</string>
+    <string name="save">Save</string>
+    <string name="add_mutiple_blocks">Add mutiple blocks</string>
+    <string name="mutiple_titles">Enter multiple titles. Each new line will create a new block</string>
+    <string name="enter_multiple_titles_each_new_line_will_create_a_new_block">Enter multiple titles. Each new line will create a new block</string>
+    <string name="add_group_title">Add a Group to organize Blocks</string>
+    <string name="length_of_trip">Choose the length of your trip</string>
+
+    <!--    Quotes-->
+    <string-array name="quotes">
+        <item>\"Never let your memories be greater than your dreams.\"</item>
+        <item>\"Once a year, go someplace you\'ve never been before.\"</item>
+        <item>\"It is better to travel well than to arrive\"</item>
+        <item>\"People travel to faraway places to watch, in fascination, the kind of people they ignore at home.\"</item>
+        <item>\"Not until we are lost do we begin to understand ourselves.\"</item>
+        <item>\"The journey not the arrival matters.\"</item>
+        <item>\"The real voyage of discovery consists not in seeking new landscapes, but in having new eyes.\"</item>
+        <item>\"Travel and change of place impart new vigour to the mind.\"</item>
+        <item>\"All journeys have secret destinations of which the traveller is unaware.\"</item>
+        <item>\"Two roads diverged in a wood and I - I took the one less travelled by.\"</item>
+        <item>\"Tourists don\'t know where they\'ve been, travellers don\'t know where they\'re going.\"</item>
+        <item>\"There are no foreign lands. It is the traveller only who is foreign.\"</item>
+        <item>\"A journey is like marriage. The certain way to be wrong is to think you control it.\"</item>
+        <item>\"People don\'t take trips… trips take people.\"</item>
+        <item>\"We wander for distraction, but we travel for fulfillment.\"</item>
+        <item>\"Not all those who wander are lost.\"</item>
+        <item>\"Though we travel the world over to find the beautiful, we must carry it with us or we find it not.\"</item>
+        <item>\"The world is a book and those who do not travel read only one page.\"</item>
+    </string-array>
+</resources>

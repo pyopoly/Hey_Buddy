@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/display_navComponent"
+    app:startDestination="@id/displayFragment">
+    <fragment
+        android:id="@+id/displayFragment"
+        android:name="com.comp3617.finalProject.ui.fragments.DisplayFragment"
+        android:label="display_main"
+        tools:layout="@layout/display_main" >
+        <action
+            android:id="@+id/action_displayFragment_self"
+            app:destination="@id/displayFragment" />
+        <action
+            android:id="@+id/action_displayFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+        <action
+            android:id="@+id/action_displayFragment_to_addBlockFragment2"
+            app:destination="@id/addBlockFragment2" />
+        <argument
+            android:name="hi"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.comp3617.finalProject.ui.fragments.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" >
+        <action
+            android:id="@+id/action_mapsFragment_to_displayFragment"
+            app:destination="@id/displayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addBlockFragment2"
+        android:name="com.comp3617.finalProject.ui.fragments.AddBlockFragment"
+        android:label="fragment_add_block"
+        tools:layout="@layout/fragment_add_block" >
+        <argument
+            android:name="itemView_Id"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_addBlockFragment2_to_displayFragment"
+            app:destination="@id/displayFragment" />
+    </fragment>
+</navigation>

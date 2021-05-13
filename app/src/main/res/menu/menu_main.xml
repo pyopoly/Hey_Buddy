@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.comp3617.finalProject.ui.MainActivity">
+    <item
+        android:id="@+id/id_home_menu"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home_menu"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/id_map_menu"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/map_menu"
+        app:showAsAction="always" />
+</menu>

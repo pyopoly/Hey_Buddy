@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_addNew"
+    app:startDestination="@id/addGroupFragment">
+
+    <fragment
+        android:id="@+id/addGroupFragment"
+        android:name="com.comp3617.finalProject.ui.fragments.AddGroupFragment"
+        android:label="fragment_add_group"
+        tools:layout="@layout/fragment_add_group" >
+        <action
+            android:id="@+id/action_addGroupFragment_to_addBlockFragment"
+            app:destination="@id/addBlockFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addBlockFragment"
+        android:name="com.comp3617.finalProject.ui.fragments.AddBlockFragment"
+        android:label="AddBlockFragment"
+        tools:layout="@layout/fragment_add_block" >
+        <action
+            android:id="@+id/action_addBlockFragment_to_addGroupFragment"
+            app:destination="@id/addGroupFragment" />
+        <action
+            android:id="@+id/action_addBlockFragment_to_addBlockMultipleFragment"
+            app:destination="@id/addBlockMultipleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addBlockMultipleFragment"
+        android:name="com.comp3617.finalProject.ui.fragments.AddBlockMultipleFragment"
+        android:label="fragment_add_block_multiple"
+        tools:layout="@layout/fragment_add_block_multiple" >
+        <action
+            android:id="@+id/action_addBlockMultipleFragment_to_addBlockFragment"
+            app:destination="@id/addBlockFragment" />
+    </fragment>
+</navigation>

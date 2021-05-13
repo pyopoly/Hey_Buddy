@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.comp3617.finalProject.ui.fragments.DisplayDatesFragment">
+
+    <com.yarolegovich.discretescrollview.DiscreteScrollView
+        android:id="@+id/id_date_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        app:dsv_orientation="horizontal" />
+
+</FrameLayout>
