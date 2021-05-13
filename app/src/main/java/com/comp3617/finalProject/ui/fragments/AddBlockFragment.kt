@@ -52,7 +52,7 @@ class AddBlockFragment: Fragment() {
         // Initialize the SDK
         activity?.applicationContext?.let { Places.initialize(
             it,
-            "AIzaSyBw5M75oPEDzs_edLpc0685QwuPUrDJ2mY"
+            "YourGoogleAPIkey"
         ) }
 
         // Create a new PlacesClient instance
